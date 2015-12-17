@@ -583,10 +583,13 @@
           this.data = new Array(game._BLOCK_WIDTH * game._BLOCK_HEIGHT);
         },
         _popRow: function(row_to_pop) {
+          /*
           for (var i=game._BLOCK_WIDTH*(row_to_pop+1) - 1; i>=0; i--) {
             this.data[i] = (i >= game._BLOCK_WIDTH ? this.data[i-game._BLOCK_WIDTH] : undefined);
           }
+          */
         },
+
         checkForClears: function() {
           var startLines = game._board.lines;
           var rows = [], i, len, count, mod;
