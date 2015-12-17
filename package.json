@@ -1,0 +1,11 @@
+{
+  "name": "blockrain",
+  "version": "1.0.0",
+  "description": "A tetris screensaver with blockrain",
+  "author": "Ethan Arterberry",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "wiredep": "^3.0.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "blockrain",
+  "description": "A tetris screensaver with blockrain",
+  "main": "blockrain.html",
+  "moduleType": [],
+  "authors": [
+    "Ethan Arterberry"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "blockrain": "~0.2.0"
+    },
+  "overrides": {
+      "blockrain": {
+          "main": ["dist/blockrain.css", "dist/blockrain.jquery.min.js"]
+      }
+  }
+}
